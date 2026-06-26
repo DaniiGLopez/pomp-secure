@@ -1,4 +1,3 @@
-
 <style>
 /* ==========================================================
 POMP SECURE 2.1 — secure.yourpomp
@@ -7,6 +6,42 @@ Shares brand tokens with planning.yourpomp CSS.
 Add planning-css.css BEFORE this file, or paste the
 :root token block here if loading standalone.
 ========================================================== */
+
+/* ----------------------------------------------------------
+styling after carrd migration/ padding/ width 
+---------------------------------------------------------- */
+html {
+  background: #f7f3ec;
+}
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background: #f7f3ec;
+}
+
+body > h2,
+body > p,
+body > form {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  width: 100%;
+}
+
+.form-section {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  box-sizing: border-box;
+}
 
 /* ----------------------------------------------------------
 BATMAN FONTS
